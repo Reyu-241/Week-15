@@ -1,0 +1,1823 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "num": "001",
+      "name": "Bulbasaur",
+      "img": "http://www.serebii.net/pokemongo/pokemon/001.png",
+      "type": ["Grass", "Poison"],
+      "moves": ["Tackle", "Growl", "Vine Whip", "Growth", "Leech Seed", "Razor Leaf", "Poison Powder", "Sleep Powder", "Seed Bomb", "Take Down", "Sweet Scent", "Synthesis", "Worry Seed", "Double-Edge", "Solar Beam", "Skull Bash", "Petal Dance", "Curse", "Ingrain", "Nature Power", "Toxic"],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "region": "Western Cape",
+      "next_evolution": [
+        {"num": "002", "name": "Ivysaur"},
+        {"num": "003", "name": "Venusaur"}
+      ]
+    },
+    {
+      "id": 2,
+      "num": "002",
+      "name": "Ivysaur",
+      "img": "http://www.serebii.net/pokemongo/pokemon/002.png",
+      "type": ["Grass", "Poison"],
+      "moves": ["Tackle", "Growl", "Vine Whip", "Growth", "Leech Seed", "Razor Leaf", "Poison Powder", "Sleep Powder", "Seed Bomb", "Take Down", "Sweet Scent", "Synthesis", "Worry Seed", "Double-Edge", "Solar Beam"],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "region": "Eastern Cape",
+      "next_evolution": [
+        {"num": "003", "name": "Venusaur"}
+      ]
+    },
+    {
+      "id": 3,
+      "num": "003",
+      "name": "Venusaur",
+      "img": "http://www.serebii.net/pokemongo/pokemon/003.png",
+      "type": ["Grass", "Poison"],
+      "moves": ["Petal Blizzard", "Petal Dance", "Tackle", "Growl", "Vine Whip", "Growth", "Leech Seed", "Razor Leaf", "Poison Powder", "Sleep Powder", "Seed Bomb", "Take Down", "Sweet Scent", "Synthesis", "Worry Seed", "Double-Edge", "Solar Beam"],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": []
+    },
+    {
+      "id": 4,
+      "num": "004",
+      "name": "Charmander",
+      "img": "http://www.serebii.net/pokemongo/pokemon/004.png",
+      "type": ["Fire"],
+      "moves": ["Scratch", "Growl", "Ember", "Smokescreen", "Dragon Breath", "Fire Fang", "Slash", "Flamethrower", "Scary Face", "Fire Spin", "Inferno", "Flare Blitz", "Belly Drum", "Ancient Power", "Bite", "Dragon Rush", "Metal Claw", "Counter", "Wing Attack", "Dragon Tail"],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "region": "Gauteng",
+      "next_evolution": [
+        {"num": "005", "name": "Charmeleon"},
+        {"num": "006", "name": "Charizard"}
+      ]
+    },
+    {
+      "id": 5,
+      "num": "005",
+      "name": "Charmeleon",
+      "img": "http://www.serebii.net/pokemongo/pokemon/005.png",
+      "type": ["Fire"],
+      "moves": ["Scratch", "Growl", "Ember", "Smokescreen", "Dragon Breath", "Fire Fang", "Slash", "Flamethrower", "Scary Face", "Fire Spin", "Inferno", "Flare Blitz"],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "006", "name": "Charizard"}
+      ]
+    },
+    {
+      "id": 6,
+      "num": "006",
+      "name": "Charizard",
+      "img": "http://www.serebii.net/pokemongo/pokemon/006.png",
+      "type": ["Fire", "Flying"],
+      "moves": ["Air Slash", "Dragon Claw", "Heat Wave", "Scratch", "Growl", "Ember", "Smokescreen", "Dragon Breath", "Fire Fang", "Slash", "Flamethrower", "Scary Face", "Fire Spin", "Inferno", "Flare Blitz"],
+      "weaknesses": ["Water", "Electric", "Rock"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 7,
+      "num": "007",
+      "name": "Squirtle",
+      "img": "http://www.serebii.net/pokemongo/pokemon/007.png",
+      "type": ["Water"],
+      "moves": ["Tackle", "Tail Whip", "Water Gun", "Withdraw", "Rapid Spin", "Bite", "Water Pulse", "Protect", "Rain Dance", "Aqua Tail", "Shell Smash", "Iron Defense", "Hydro Pump", "Skull Bash", "Mirror Coat", "Haze", "Mist", "Flail", "Yawn", "Fake Out", "Aqua Ring", "Aqua Jet", "Water Spout", "Life Dew"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Western Cape",
+      "next_evolution": [
+        {"num": "008", "name": "Wartortle"},
+        {"num": "009", "name": "Blastoise"}
+      ]
+    },
+    {
+      "id": 8,
+      "num": "008",
+      "name": "Wartortle",
+      "img": "http://www.serebii.net/pokemongo/pokemon/008.png",
+      "type": ["Water"],
+      "moves": ["Tackle", "Tail Whip", "Water Gun", "Withdraw", "Rapid Spin", "Bite", "Water Pulse", "Protect", "Rain Dance", "Aqua Tail", "Shell Smash", "Iron Defense", "Hydro Pump", "Skull Bash"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Northern Cape",
+      "next_evolution": [
+        {"num": "009", "name": "Blastoise"}
+      ]
+    },
+    {
+      "id": 9,
+      "num": "009",
+      "name": "Blastoise",
+      "img": "http://www.serebii.net/pokemongo/pokemon/009.png",
+      "type": ["Water"],
+      "moves": ["Flash Cannon", "Tackle", "Tail Whip", "Water Gun", "Withdraw", "Rapid Spin", "Bite", "Water Pulse", "Protect", "Rain Dance", "Aqua Tail", "Shell Smash", "Iron Defense", "Hydro Pump", "Skull Bash"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Free State",
+      "next_evolution": []
+    },
+    {
+      "id": 10,
+      "num": "010",
+      "name": "Caterpie",
+      "img": "http://www.serebii.net/pokemongo/pokemon/010.png",
+      "type": ["Bug"],
+      "moves": ["Tackle", "String Shot", "Bug Bite"],
+      "weaknesses": ["Fire", "Flying", "Rock"],
+      "region": "North West",
+      "next_evolution": [
+        {"num": "011", "name": "Metapod"},
+        {"num": "012", "name": "Butterfree"}
+      ]
+    },
+    {
+      "id": 11,
+      "num": "011",
+      "name": "Metapod",
+      "img": "http://www.serebii.net/pokemongo/pokemon/011.png",
+      "type": ["Bug"],
+      "moves": ["Harden"],
+      "weaknesses": ["Fire", "Flying", "Rock"],
+      "region": "Gauteng",
+      "next_evolution": [
+        {"num": "012", "name": "Butterfree"}
+      ]
+    },
+    {
+      "id": 12,
+      "num": "012",
+      "name": "Butterfree",
+      "img": "http://www.serebii.net/pokemongo/pokemon/012.png",
+      "type": ["Bug", "Flying"],
+      "moves": ["Gust", "Harden", "Tackle", "String Shot", "Bug Bite", "Supersonic", "Confusion", "Poison Powder", "Stun Spore", "Sleep Powder", "Psybeam", "Whirlwind", "Air Slash", "Safeguard", "Bug Buzz", "Tailwind", "Rage Powder", "Quiver Dance"],
+      "weaknesses": ["Fire", "Electric", "Ice", "Flying", "Rock"],
+      "region": "Mpumalanga",
+      "next_evolution": []
+    },
+    {
+      "id": 13,
+      "num": "013",
+      "name": "Weedle",
+      "img": "http://www.serebii.net/pokemongo/pokemon/013.png",
+      "type": ["Bug", "Poison"],
+      "moves": ["Poison Sting", "String Shot", "Bug Bite"],
+      "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
+      "region": "Limpopo",
+      "next_evolution": [
+        {"num": "014", "name": "Kakuna"},
+        {"num": "015", "name": "Beedrill"}
+      ]
+    },
+    {
+      "id": 14,
+      "num": "014",
+      "name": "Kakuna",
+      "img": "http://www.serebii.net/pokemongo/pokemon/014.png",
+      "type": ["Bug", "Poison"],
+      "moves": ["Harden"],
+      "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
+      "region": "Western Cape",
+      "next_evolution": [
+        {"num": "015", "name": "Beedrill"}
+      ]
+    },
+    {
+      "id": 15,
+      "num": "015",
+      "name": "Beedrill",
+      "img": "http://www.serebii.net/pokemongo/pokemon/015.png",
+      "type": ["Bug", "Poison"],
+      "moves": ["Fury Attack", "Harden", "Poison Sting", "String Shot", "Bug Bite", "Twineedle", "Rage", "Pursuit", "Focus Energy", "Venoshock", "Assurance", "Toxic Spikes", "Pin Missile", "Agility", "Endeavor", "Fell Stinger"],
+      "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
+      "region": "Eastern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 16,
+      "num": "016",
+      "name": "Pidgey",
+      "img": "http://www.serebii.net/pokemongo/pokemon/016.png",
+      "type": ["Normal", "Flying"],
+      "moves": ["Tackle", "Sand Attack", "Gust", "Quick Attack", "Whirlwind", "Twister", "Feather Dance", "Agility", "Wing Attack", "Roost", "Mirror Move", "Air Slash", "Hurricane"],
+      "weaknesses": ["Electric", "Rock"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": [
+        {"num": "017", "name": "Pidgeotto"},
+        {"num": "018", "name": "Pidgeot"}
+      ]
+    },
+    {
+      "id": 17,
+      "num": "017",
+      "name": "Pidgeotto",
+      "img": "http://www.serebii.net/pokemongo/pokemon/017.png",
+      "type": ["Normal", "Flying"],
+      "moves": ["Tackle", "Sand Attack", "Gust", "Quick Attack", "Whirlwind", "Twister", "Feather Dance", "Agility", "Wing Attack", "Roost", "Mirror Move", "Air Slash", "Hurricane"],
+      "weaknesses": ["Electric", "Rock"],
+      "region": "Northern Cape",
+      "next_evolution": [
+        {"num": "018", "name": "Pidgeot"}
+      ]
+    },
+    {
+      "id": 18,
+      "num": "018",
+      "name": "Pidgeot",
+      "img": "http://www.serebii.net/pokemongo/pokemon/018.png",
+      "type": ["Normal", "Flying"],
+      "moves": ["Hurricane", "Tackle", "Sand Attack", "Gust", "Quick Attack", "Whirlwind", "Twister", "Feather Dance", "Agility", "Wing Attack", "Roost", "Mirror Move", "Air Slash"],
+      "weaknesses": ["Electric", "Rock"],
+      "region": "Free State",
+      "next_evolution": []
+    },
+    {
+      "id": 19,
+      "num": "019",
+      "name": "Rattata",
+      "img": "http://www.serebii.net/pokemongo/pokemon/019.png",
+      "type": ["Normal"],
+      "moves": ["Tackle", "Tail Whip", "Quick Attack", "Focus Energy", "Bite", "Pursuit", "Hyper Fang", "Sucker Punch", "Crunch", "Headbutt"],
+      "weaknesses": ["Fighting"],
+      "region": "North West",
+      "next_evolution": [
+        {"num": "020", "name": "Raticate"}
+      ]
+    },
+    {
+      "id": 20,
+      "num": "020",
+      "name": "Raticate",
+      "img": "http://www.serebii.net/pokemongo/pokemon/020.png",
+      "type": ["Normal"],
+      "moves": ["Swords Dance", "Tackle", "Tail Whip", "Quick Attack", "Focus Energy", "Bite", "Pursuit", "Hyper Fang", "Sucker Punch", "Crunch"],
+      "weaknesses": ["Fighting"],
+      "region": "Gauteng",
+      "next_evolution": []
+    },
+    {
+      "id": 21,
+      "num": "021",
+      "name": "Spearow",
+      "img": "http://www.serebii.net/pokemongo/pokemon/021.png",
+      "type": ["Normal", "Flying"],
+      "moves": ["Peck", "Growl", "Leer", "Pursuit", "Aerial Ace", "Mirror Move", "Fury Attack", "Agility", "Focus Energy", "Roost", "Drill Peck"],
+      "weaknesses": ["Electric", "Rock"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "022", "name": "Fearow"}
+      ]
+    },
+    {
+      "id": 22,
+      "num": "022",
+      "name": "Fearow",
+      "img": "http://www.serebii.net/pokemongo/pokemon/022.png",
+      "type": ["Normal", "Flying"],
+      "moves": ["Drill Run", "Peck", "Growl", "Leer", "Pursuit", "Aerial Ace", "Mirror Move", "Fury Attack", "Agility", "Focus Energy", "Roost", "Drill Peck"],
+      "weaknesses": ["Electric", "Rock"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 23,
+      "num": "023",
+      "name": "Ekans",
+      "img": "http://www.serebii.net/pokemongo/pokemon/023.png",
+      "type": ["Poison"],
+      "moves": ["Wrap", "Leer", "Poison Sting", "Bite", "Glare", "Screech", "Acid", "Stockpile", "Spit Up", "Swallow", "Mud Bomb", "Gastro Acid", "Belch"],
+      "weaknesses": ["Ground", "Psychic"],
+      "region": "Western Cape",
+      "next_evolution": [
+        {"num": "024", "name": "Arbok"}
+      ]
+    },
+    {
+      "id": 24,
+      "num": "024",
+      "name": "Arbok",
+      "img": "http://www.serebii.net/pokemongo/pokemon/024.png",
+      "type": ["Poison"],
+      "moves": ["Crunch", "Wrap", "Leer", "Poison Sting", "Bite", "Glare", "Screech", "Acid", "Stockpile", "Spit Up", "Swallow", "Mud Bomb", "Gastro Acid", "Belch"],
+      "weaknesses": ["Ground", "Psychic"],
+      "region": "Eastern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 25,
+      "num": "025",
+      "name": "Pikachu",
+      "img": "http://www.serebii.net/pokemongo/pokemon/025.png",
+      "type": ["Electric"],
+      "moves": ["Play Nice", "Sweet Kiss", "Nuzzle", "Nasty Plot", "Charm", "Thunder Shock", "Tail Whip", "Growl", "Quick Attack", "Thunder Wave", "Double Team", "Electro Ball", "Feint", "Spark", "Agility", "Slam", "Discharge", "Thunderbolt", "Light Screen", "Thunder"],
+      "weaknesses": ["Ground"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": [
+        {"num": "026", "name": "Raichu"}
+      ]
+    },
+    {
+      "id": 26,
+      "num": "026",
+      "name": "Raichu",
+      "img": "http://www.serebii.net/pokemongo/pokemon/026.png",
+      "type": ["Electric"],
+      "moves": ["Thunder Punch", "Play Nice", "Sweet Kiss", "Nuzzle", "Nasty Plot", "Charm", "Thunder Wave", "Double Team", "Electro Ball", "Feint", "Spark", "Agility", "Slam", "Discharge", "Thunderbolt", "Light Screen", "Thunder", "Thunder Shock", "Tail Whip", "Growl", "Quick Attack"],
+      "weaknesses": ["Ground"],
+      "region": "Northern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 27,
+      "num": "027",
+      "name": "Sandshrew",
+      "img": "http://www.serebii.net/pokemongo/pokemon/027.png",
+      "type": ["Ground"],
+      "moves": ["Scratch", "Defense Curl", "Sand Attack", "Poison Sting", "Swift", "Fury Swipes", "Rollout", "Sand Tomb", "Slash", "Dig", "Gyro Ball", "Earthquake"],
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "region": "Free State",
+      "next_evolution": [
+        {"num": "028", "name": "Sandslash"}
+      ]
+    },
+    {
+      "id": 28,
+      "num": "028",
+      "name": "Sandslash",
+      "img": "http://www.serebii.net/pokemongo/pokemon/028.png",
+      "type": ["Ground"],
+      "moves": ["Slash", "Scratch", "Defense Curl", "Sand Attack", "Poison Sting", "Swift", "Fury Swipes", "Rollout", "Sand Tomb", "Dig", "Gyro Ball", "Earthquake"],
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "region": "North West",
+      "next_evolution": []
+    },
+    {
+      "id": 29,
+      "num": "029",
+      "name": "Nidoran ♀ (Female)",
+      "img": "http://www.serebii.net/pokemongo/pokemon/029.png",
+      "type": ["Poison"],
+      "moves": ["Growl", "Poison Sting", "Scratch", "Tail Whip", "Double Kick", "Bite", "Helping Hand", "Toxic Spikes", "Flatter", "Crunch", "Venoshock"],
+      "weaknesses": ["Ground", "Psychic"],
+      "region": "Gauteng",
+      "next_evolution": [
+        {"num": "030", "name": "Nidorina"},
+        {"num": "031", "name": "Nidoqueen"}
+      ]
+    },
+    {
+      "id": 30,
+      "num": "030",
+      "name": "Nidorina",
+      "img": "http://www.serebii.net/pokemongo/pokemon/030.png",
+      "type": ["Poison"],
+      "moves": ["Growl", "Poison Sting", "Scratch", "Tail Whip", "Double Kick", "Bite", "Helping Hand", "Toxic Spikes", "Flatter", "Crunch", "Venoshock"],
+      "weaknesses": ["Ground", "Psychic"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "031", "name": "Nidoqueen"}
+      ]
+    },
+    {
+      "id": 31,
+      "num": "031",
+      "name": "Nidoqueen",
+      "img": "http://www.serebii.net/pokemongo/pokemon/031.png",
+      "type": ["Poison", "Ground"],
+      "moves": ["Superpower", "Growl", "Poison Sting", "Scratch", "Tail Whip", "Double Kick", "Bite", "Helping Hand", "Toxic Spikes", "Flatter", "Crunch", "Venoshock"],
+      "weaknesses": ["Water", "Ice", "Ground", "Psychic"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 32,
+      "num": "032",
+      "name": "Nidoran ♂ (Male)",
+      "img": "http://www.serebii.net/pokemongo/pokemon/032.png",
+      "type": ["Poison"],
+      "moves": ["Leer", "Poison Sting", "Peck", "Focus Energy", "Double Kick", "Horn Attack", "Helping Hand", "Toxic Spikes", "Flatter", "Poison Jab"],
+      "weaknesses": ["Ground", "Psychic"],
+      "region": "Western Cape",
+      "next_evolution": [
+        {"num": "033", "name": "Nidorino"},
+        {"num": "034", "name": "Nidoking"}
+      ]
+    },
+    {
+      "id": 33,
+      "num": "033",
+      "name": "Nidorino",
+      "img": "http://www.serebii.net/pokemongo/pokemon/033.png",
+      "type": ["Poison"],
+      "moves": ["Leer", "Poison Sting", "Peck", "Focus Energy", "Double Kick", "Horn Attack", "Helping Hand", "Toxic Spikes", "Flatter", "Poison Jab"],
+      "weaknesses": ["Ground", "Psychic"],
+      "region": "Eastern Cape",
+      "next_evolution": [
+        {"num": "034", "name": "Nidoking"}
+      ]
+    },
+    {
+      "id": 34,
+      "num": "034",
+      "name": "Nidoking",
+      "img": "http://www.serebii.net/pokemongo/pokemon/034.png",
+      "type": ["Poison", "Ground"],
+      "moves": ["Megahorn", "Leer", "Poison Sting", "Peck", "Focus Energy", "Double Kick", "Horn Attack", "Helping Hand", "Toxic Spikes", "Flatter", "Poison Jab"],
+      "weaknesses": ["Water", "Ice", "Ground", "Psychic"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": []
+    },
+    {
+      "id": 35,
+      "num": "035",
+      "name": "Clefairy",
+      "img": "http://www.serebii.net/pokemongo/pokemon/035.png",
+      "type": ["Normal"],
+      "moves": ["Sing", "Sweet Kiss", "Disarming Voice", "Encore", "Charm", "Splash", "Pound", "Copycat", "Growl", "Defense Curl", "Stored Power", "Minimize", "After You", "Life Dew", "Metronome", "Moonlight", "Gravity", "Meteor Mash", "Follow Me", "Cosmic Power", "Moonblast", "Healing Wish"],
+      "weaknesses": ["Fighting"],
+      "region": "Northern Cape",
+      "next_evolution": [
+        {"num": "036", "name": "Clefable"}
+      ]
+    },
+    {
+      "id": 36,
+      "num": "036",
+      "name": "Clefable",
+      "img": "http://www.serebii.net/pokemongo/pokemon/036.png",
+      "type": ["Normal"],
+      "moves": ["Sing", "Sweet Kiss", "Disarming Voice", "Encore", "Charm", "Stored Power", "Minimize", "After You", "Life Dew", "Metronome", "Moonlight", "Gravity", "Meteor Mash", "Follow Me", "Cosmic Power", "Moonblast", "Healing Wish"],
+      "weaknesses": ["Fighting"],
+      "region": "Free State",
+      "next_evolution": []
+    },
+    {
+      "id": 37,
+      "num": "037",
+      "name": "Vulpix",
+      "img": "http://www.serebii.net/pokemongo/pokemon/037.png",
+      "type": ["Fire"],
+      "moves": ["Ember", "Tail Whip", "Disable", "Quick Attack", "Spite", "Incinerate", "Confuse Ray", "Will-O-Wisp", "Extrasensory", "Flamethrower", "Imprison", "Fire Spin", "Safeguard", "Inferno", "Grudge", "Fire Blast"],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "region": "North West",
+      "next_evolution": [
+        {"num": "038", "name": "Ninetales"}
+      ]
+    },
+    {
+      "id": 38,
+      "num": "038",
+      "name": "Ninetales",
+      "img": "http://www.serebii.net/pokemongo/pokemon/038.png",
+      "type": ["Fire"],
+      "moves": ["Nasty Plot", "Incinerate", "Spite", "Confuse Ray", "Will-O-Wisp", "Extrasensory", "Flamethrower", "Imprison", "Fire Spin", "Safeguard", "Inferno", "Grudge", "Fire Blast"],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "region": "Gauteng",
+      "next_evolution": []
+    },
+    {
+      "id": 39,
+      "num": "039",
+      "name": "Jigglypuff",
+      "img": "http://www.serebii.net/pokemongo/pokemon/039.png",
+      "type": ["Normal"],
+      "moves": ["Sing", "Defense Curl", "Pound", "Copycat", "Disable", "Round", "Rollout", "Double Slap", "Rest", "Body Slam", "Gyro Ball", "Wake-Up Slap", "Mimic", "Hyper Voice"],
+      "weaknesses": ["Fighting"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "040", "name": "Wigglytuff"}
+      ]
+    },
+    {
+      "id": 40,
+      "num": "040",
+      "name": "Wigglytuff",
+      "img": "http://www.serebii.net/pokemongo/pokemon/040.png",
+      "type": ["Normal"],
+      "moves": ["Sing", "Defense Curl", "Pound", "Copycat", "Disable", "Round", "Rollout", "Double Slap", "Rest", "Body Slam", "Gyro Ball", "Wake-Up Slap", "Mimic", "Hyper Voice"],
+      "weaknesses": ["Fighting"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 41,
+      "num": "041",
+      "name": "Zubat",
+      "img": "http://www.serebii.net/pokemongo/pokemon/041.png",
+      "type": ["Poison", "Flying"],
+      "moves": ["Leech Life", "Supersonic", "Astonish", "Bite", "Wing Attack", "Confuse Ray", "Air Cutter", "Swift", "Poison Fang", "Mean Look", "Acrobatics", "Haze", "Venoshock"],
+      "weaknesses": ["Electric", "Ice", "Psychic", "Rock"],
+      "region": "Western Cape",
+      "next_evolution": [
+        {"num": "042", "name": "Golbat"}
+      ]
+    },
+    {
+      "id": 42,
+      "num": "042",
+      "name": "Golbat",
+      "img": "http://www.serebii.net/pokemongo/pokemon/042.png",
+      "type": ["Poison", "Flying"],
+      "moves": ["Air Slash", "Leech Life", "Supersonic", "Astonish", "Bite", "Wing Attack", "Confuse Ray", "Air Cutter", "Swift", "Poison Fang", "Mean Look", "Acrobatics", "Haze", "Venoshock"],
+      "weaknesses": ["Electric", "Ice", "Psychic", "Rock"],
+      "region": "Eastern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 43,
+      "num": "043",
+      "name": "Oddish",
+      "img": "http://www.serebii.net/pokemongo/pokemon/043.png",
+      "type": ["Grass", "Poison"],
+      "moves": ["Absorb", "Growth", "Acid", "Sweet Scent", "Mega Drain", "Poison Powder", "Stun Spore", "Sleep Powder", "Giga Drain", "Toxic", "Moonblast", "Grassy Terrain", "Moonlight", "Petal Dance"],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": [
+        {"num": "044", "name": "Gloom"},
+        {"num": "045", "name": "Vileplume"}
+      ]
+    },
+    {
+      "id": 44,
+      "num": "044",
+      "name": "Gloom",
+      "img": "http://www.serebii.net/pokemongo/pokemon/044.png",
+      "type": ["Grass", "Poison"],
+      "moves": ["Absorb", "Growth", "Acid", "Sweet Scent", "Mega Drain", "Poison Powder", "Stun Spore", "Sleep Powder", "Giga Drain", "Toxic", "Moonblast", "Grassy Terrain", "Moonlight", "Petal Dance"],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "region": "Northern Cape",
+      "next_evolution": [
+        {"num": "045", "name": "Vileplume"}
+      ]
+    },
+    {
+      "id": 45,
+      "num": "045",
+      "name": "Vileplume",
+      "img": "http://www.serebii.net/pokemongo/pokemon/045.png",
+      "type": ["Grass", "Poison"],
+      "moves": ["Petal Blizzard", "Aromatherapy", "Mega Drain", "Poison Powder", "Stun Spore", "Sleep Powder", "Giga Drain", "Toxic", "Moonblast", "Grassy Terrain", "Moonlight", "Petal Dance"],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "region": "Free State",
+      "next_evolution": []
+    },
+    {
+      "id": 46,
+      "num": "046",
+      "name": "Paras",
+      "img": "http://www.serebii.net/pokemongo/pokemon/046.png",
+      "type": ["Bug", "Grass"],
+      "moves": ["Scratch", "Poison Powder", "Stun Spore", "Leech Life", "Fury Cutter", "Spore", "Slash", "Growth", "Giga Drain", "Aromatherapy"],
+      "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug", "Rock"],
+      "region": "North West",
+      "next_evolution": [
+        {"num": "047", "name": "Parasect"}
+      ]
+    },
+    {
+      "id": 47,
+      "num": "047",
+      "name": "Parasect",
+      "img": "http://www.serebii.net/pokemongo/pokemon/047.png",
+      "type": ["Bug", "Grass"],
+      "moves": ["Cross Poison", "Scratch", "Poison Powder", "Stun Spore", "Leech Life", "Fury Cutter", "Spore", "Slash", "Growth", "Giga Drain", "Aromatherapy"],
+      "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug", "Rock"],
+      "region": "Gauteng",
+      "next_evolution": []
+    },
+    {
+      "id": 48,
+      "num": "048",
+      "name": "Venonat",
+      "img": "http://www.serebii.net/pokemongo/pokemon/048.png",
+      "type": ["Bug", "Poison"],
+      "moves": ["Tackle", "Disable", "Foresight", "Supersonic", "Confusion", "Poison Powder", "Psybeam", "Stun Spore", "Signal Beam", "Venoshock", "Sleep Powder"],
+      "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "049", "name": "Venomoth"}
+      ]
+    },
+    {
+      "id": 49,
+      "num": "049",
+      "name": "Venomoth",
+      "img": "http://www.serebii.net/pokemongo/pokemon/049.png",
+      "type": ["Bug", "Poison"],
+      "moves": ["Gust", "Disable", "Foresight", "Supersonic", "Confusion", "Poison Powder", "Psybeam", "Stun Spore", "Signal Beam", "Venoshock", "Sleep Powder", "Bug Buzz", "Quiver Dance"],
+      "weaknesses": ["Fire", "Flying", "Psychic", "Rock"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 50,
+      "num": "050",
+      "name": "Diglett",
+      "img": "http://www.serebii.net/pokemongo/pokemon/050.png",
+      "type": ["Ground"],
+      "moves": ["Sand Attack", "Scratch", "Growl", "Astonish", "Mud-Slap", "Bulldoze", "Sucker Punch", "Slash", "Sandstorm", "Dig", "Earth Power", "Earthquake", "Fissure"],
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "region": "Western Cape",
+      "next_evolution": [
+        {"num": "051", "name": "Dugtrio"}
+      ]
+    },
+    {
+      "id": 51,
+      "num": "051",
+      "name": "Dugtrio",
+      "img": "http://www.serebii.net/pokemongo/pokemon/051.png",
+      "type": ["Ground"],
+      "moves": ["Sand Tomb", "Night Slash", "Tri Attack", "Sand Attack", "Scratch", "Growl", "Astonish", "Mud-Slap", "Bulldoze", "Sucker Punch", "Slash", "Sandstorm", "Dig", "Earth Power", "Earthquake", "Fissure"],
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "region": "Eastern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 52,
+      "num": "052",
+      "name": "Meowth",
+      "img": "http://www.serebii.net/pokemongo/pokemon/052.png",
+      "type": ["Normal"],
+      "moves": ["Fake Out", "Growl", "Feint", "Scratch", "Pay Day", "Bite", "Taunt", "Assurance", "Fury Swipes", "Screech", "Slash", "Nasty Plot", "Play Rough"],
+      "weaknesses": ["Fighting"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": [
+        {"num": "053", "name": "Persian"}
+      ]
+    },
+    {
+      "id": 53,
+      "num": "053",
+      "name": "Persian",
+      "img": "http://www.serebii.net/pokemongo/pokemon/053.png",
+      "type": ["Normal"],
+      "moves": ["Switcheroo", "Fake Out", "Growl", "Feint", "Scratch", "Pay Day", "Bite", "Taunt", "Assurance", "Fury Swipes", "Screech", "Slash", "Nasty Plot", "Play Rough"],
+      "weaknesses": ["Fighting"],
+      "region": "Northern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 54,
+      "num": "054",
+      "name": "Psyduck",
+      "img": "http://www.serebii.net/pokemongo/pokemon/054.png",
+      "type": ["Water"],
+      "moves": ["Water Gun", "Scratch", "Tail Whip", "Disable", "Confusion", "Water Pulse", "Fury Swipes", "Screech", "Zen Headbutt", "Amnesia", "Hydro Pump", "Psychic"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Free State",
+      "next_evolution": [
+        {"num": "055", "name": "Golduck"}
+      ]
+    },
+    {
+      "id": 55,
+      "num": "055",
+      "name": "Golduck",
+      "img": "http://www.serebii.net/pokemongo/pokemon/055.png",
+      "type": ["Water"],
+      "moves": ["Aqua Jet", "Water Gun", "Scratch", "Tail Whip", "Disable", "Confusion", "Water Pulse", "Fury Swipes", "Screech", "Zen Headbutt", "Amnesia", "Hydro Pump", "Psychic"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "North West",
+      "next_evolution": []
+    },
+    {
+      "id": 56,
+      "num": "056",
+      "name": "Mankey",
+      "img": "http://www.serebii.net/pokemongo/pokemon/056.png",
+      "type": ["Fighting"],
+      "moves": ["Scratch", "Leer", "Low Kick", "Karate Chop", "Fury Swipes", "Focus Energy", "Seismic Toss", "Screech", "Cross Chop", "Thrash", "Close Combat"],
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "region": "Gauteng",
+      "next_evolution": [
+        {"num": "057", "name": "Primeape"}
+      ]
+    },
+    {
+      "id": 57,
+      "num": "057",
+      "name": "Primeape",
+      "img": "http://www.serebii.net/pokemongo/pokemon/057.png",
+      "type": ["Fighting"],
+      "moves": ["Rage Fist", "Scratch", "Leer", "Low Kick", "Karate Chop", "Fury Swipes", "Focus Energy", "Seismic Toss", "Screech", "Cross Chop", "Thrash", "Close Combat"],
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "region": "Mpumalanga",
+      "next_evolution": []
+    },
+    {
+      "id": 58,
+      "num": "058",
+      "name": "Growlithe",
+      "img": "http://www.serebii.net/pokemongo/pokemon/058.png",
+      "type": ["Fire"],
+      "moves": ["Ember", "Leer", "Odor Sleuth", "Bite", "Helping Hand", "Flame Wheel", "Reversal", "Fire Fang", "Take Down", "Flame Burst", "Agility", "Flare Blitz"],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "region": "Limpopo",
+      "next_evolution": [
+        {"num": "059", "name": "Arcanine"}
+      ]
+    },
+    {
+      "id": 59,
+      "num": "059",
+      "name": "Arcanine",
+      "img": "http://www.serebii.net/pokemongo/pokemon/059.png",
+      "type": ["Fire"],
+      "moves": ["Extreme Speed", "Ember", "Leer", "Odor Sleuth", "Bite", "Helping Hand", "Flame Wheel", "Reversal", "Fire Fang", "Take Down", "Flame Burst", "Agility", "Flare Blitz"],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "region": "Western Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 60,
+      "num": "060",
+      "name": "Poliwag",
+      "img": "http://www.serebii.net/pokemongo/pokemon/060.png",
+      "type": ["Water"],
+      "moves": ["Water Gun", "Hypnosis", "Pound", "Mud Shot", "Bubble Beam", "Rain Dance", "Body Slam", "Belly Drum", "Hydro Pump"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Eastern Cape",
+      "next_evolution": [
+        {"num": "061", "name": "Poliwhirl"},
+        {"num": "062", "name": "Poliwrath"}
+      ]
+    },
+    {
+      "id": 61,
+      "num": "061",
+      "name": "Poliwhirl",
+      "img": "http://www.serebii.net/pokemongo/pokemon/061.png",
+      "type": ["Water"],
+      "moves": ["Water Gun", "Hypnosis", "Pound", "Mud Shot", "Bubble Beam", "Rain Dance", "Body Slam", "Belly Drum", "Hydro Pump"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": [
+        {"num": "062", "name": "Poliwrath"}
+      ]
+    },
+    {
+      "id": 62,
+      "num": "062",
+      "name": "Poliwrath",
+      "img": "http://www.serebii.net/pokemongo/pokemon/062.png",
+      "type": ["Water", "Fighting"],
+      "moves": ["Submission", "Water Gun", "Hypnosis", "Pound", "Mud Shot", "Bubble Beam", "Rain Dance", "Body Slam", "Belly Drum", "Hydro Pump"],
+      "weaknesses": ["Electric", "Grass", "Flying", "Psychic", "Fairy"],
+      "region": "Northern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 63,
+      "num": "063",
+      "name": "Abra",
+      "img": "http://www.serebii.net/pokemongo/pokemon/063.png",
+      "type": ["Psychic"],
+      "moves": ["Teleport", "Confusion", "Disable", "Psybeam", "Reflect", "Recover", "Psychic", "Future Sight"],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "region": "Free State",
+      "next_evolution": [
+        {"num": "064", "name": "Kadabra"},
+        {"num": "065", "name": "Alakazam"}
+      ]
+    },
+    {
+      "id": 64,
+      "num": "064",
+      "name": "Kadabra",
+      "img": "http://www.serebii.net/pokemongo/pokemon/064.png",
+      "type": ["Psychic"],
+      "moves": ["Teleport", "Confusion", "Disable", "Psybeam", "Reflect", "Recover", "Psychic", "Future Sight"],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "region": "North West",
+      "next_evolution": [
+        {"num": "065", "name": "Alakazam"}
+      ]
+    },
+    {
+      "id": 65,
+      "num": "065",
+      "name": "Alakazam",
+      "img": "http://www.serebii.net/pokemongo/pokemon/065.png",
+      "type": ["Psychic"],
+      "moves": ["Kinesis", "Teleport", "Confusion", "Disable", "Psybeam", "Reflect", "Recover", "Psychic", "Future Sight"],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "region": "Gauteng",
+      "next_evolution": []
+    },
+    {
+      "id": 66,
+      "num": "066",
+      "name": "Machop",
+      "img": "http://www.serebii.net/pokemongo/pokemon/066.png",
+      "type": ["Fighting"],
+      "moves": ["Low Kick", "Leer", "Focus Energy", "Karate Chop", "Foresight", "Seismic Toss", "Revenge", "Vital Throw", "Submission", "Cross Chop", "Dynamic Punch"],
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "067", "name": "Machoke"},
+        {"num": "068", "name": "Machamp"}
+      ]
+    },
+    {
+      "id": 67,
+      "num": "067",
+      "name": "Machoke",
+      "img": "http://www.serebii.net/pokemongo/pokemon/067.png",
+      "type": ["Fighting"],
+      "moves": ["Low Kick", "Leer", "Focus Energy", "Karate Chop", "Foresight", "Seismic Toss", "Revenge", "Vital Throw", "Submission", "Cross Chop", "Dynamic Punch"],
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "region": "Limpopo",
+      "next_evolution": [
+        {"num": "068", "name": "Machamp"}
+      ]
+    },
+    {
+      "id": 68,
+      "num": "068",
+      "name": "Machamp",
+      "img": "http://www.serebii.net/pokemongo/pokemon/068.png",
+      "type": ["Fighting"],
+      "moves": ["Strength", "Low Kick", "Leer", "Focus Energy", "Karate Chop", "Foresight", "Seismic Toss", "Revenge", "Vital Throw", "Submission", "Cross Chop", "Dynamic Punch"],
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "region": "Western Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 69,
+      "num": "069",
+      "name": "Bellsprout",
+      "img": "http://www.serebii.net/pokemongo/pokemon/069.png",
+      "type": ["Grass", "Poison"],
+      "moves": ["Vine Whip", "Growth", "Wrap", "Sleep Powder", "Poison Powder", "Stun Spore", "Acid", "Knock Off", "Razor Leaf", "Slam", "Wring Out"],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "region": "Eastern Cape",
+      "next_evolution": [
+        {"num": "070", "name": "Weepinbell"},
+        {"num": "071", "name": "Victreebel"}
+      ]
+    },
+    {
+      "id": 70,
+      "num": "070",
+      "name": "Weepinbell",
+      "img": "http://www.serebii.net/pokemongo/pokemon/070.png",
+      "type": ["Grass", "Poison"],
+      "moves": ["Vine Whip", "Growth", "Wrap", "Sleep Powder", "Poison Powder", "Stun Spore", "Acid", "Knock Off", "Razor Leaf", "Slam", "Wring Out"],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": [
+        {"num": "071", "name": "Victreebel"}
+      ]
+    },
+    {
+      "id": 71,
+      "num": "071",
+      "name": "Victreebel",
+      "img": "http://www.serebii.net/pokemongo/pokemon/071.png",
+      "type": ["Grass", "Poison"],
+      "moves": ["Leaf Tornado", "Vine Whip", "Growth", "Wrap", "Sleep Powder", "Poison Powder", "Stun Spore", "Acid", "Knock Off", "Razor Leaf", "Slam", "Wring Out"],
+      "weaknesses": ["Fire", "Ice", "Flying", "Psychic"],
+      "region": "Northern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 72,
+      "num": "072",
+      "name": "Tentacool",
+      "img": "http://www.serebii.net/pokemongo/pokemon/072.png",
+      "type": ["Water", "Poison"],
+      "moves": ["Poison Sting", "Supersonic", "Constrict", "Acid", "Bubble Beam", "Wrap", "Barrier", "Water Pulse", "Poison Jab", "Screech", "Hydro Pump"],
+      "weaknesses": ["Electric", "Ground", "Psychic"],
+      "region": "Free State",
+      "next_evolution": [
+        {"num": "073", "name": "Tentacruel"}
+      ]
+    },
+    {
+      "id": 73,
+      "num": "073",
+      "name": "Tentacruel",
+      "img": "http://www.serebii.net/pokemongo/pokemon/073.png",
+      "type": ["Water", "Poison"],
+      "moves": ["Acid Spray", "Poison Sting", "Supersonic", "Constrict", "Acid", "Bubble Beam", "Wrap", "Barrier", "Water Pulse", "Poison Jab", "Screech", "Hydro Pump"],
+      "weaknesses": ["Electric", "Ground", "Psychic"],
+      "region": "North West",
+      "next_evolution": []
+    },
+    {
+      "id": 74,
+      "num": "074",
+      "name": "Geodude",
+      "img": "http://www.serebii.net/pokemongo/pokemon/074.png",
+      "type": ["Rock", "Ground"],
+      "moves": ["Tackle", "Defense Curl", "Rock Polish", "Rock Throw", "Magnitude", "Rollout", "Bulldoze", "Self-Destruct", "Rock Blast", "Earthquake", "Explosion", "Stone Edge"],
+      "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      "region": "Gauteng",
+      "next_evolution": [
+        {"num": "075", "name": "Graveler"},
+        {"num": "076", "name": "Golem"}
+      ]
+    },
+    {
+      "id": 75,
+      "num": "075",
+      "name": "Graveler",
+      "img": "http://www.serebii.net/pokemongo/pokemon/075.png",
+      "type": ["Rock", "Ground"],
+      "moves": ["Tackle", "Defense Curl", "Rock Polish", "Rock Throw", "Magnitude", "Rollout", "Bulldoze", "Self-Destruct", "Rock Blast", "Earthquake", "Explosion", "Stone Edge"],
+      "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "076", "name": "Golem"}
+      ]
+    },
+    {
+      "id": 76,
+      "num": "076",
+      "name": "Golem",
+      "img": "http://www.serebii.net/pokemongo/pokemon/076.png",
+      "type": ["Rock", "Ground"],
+      "moves": ["Heavy Slam", "Tackle", "Defense Curl", "Rock Polish", "Rock Throw", "Magnitude", "Rollout", "Bulldoze", "Self-Destruct", "Rock Blast", "Earthquake", "Explosion", "Stone Edge"],
+      "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 77,
+      "num": "077",
+      "name": "Ponyta",
+      "img": "http://www.serebii.net/pokemongo/pokemon/077.png",
+      "type": ["Fire"],
+      "moves": ["Tackle", "Growl", "Ember", "Tail Whip", "Flame Wheel", "Stomp", "Fire Spin", "Take Down", "Agility", "Fire Blast", "Flare Blitz"],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "region": "Western Cape",
+      "next_evolution": [
+        {"num": "078", "name": "Rapidash"}
+      ]
+    },
+    {
+      "id": 78,
+      "num": "078",
+      "name": "Rapidash",
+      "img": "http://www.serebii.net/pokemongo/pokemon/078.png",
+      "type": ["Fire"],
+      "moves": ["Fury Attack", "Tackle", "Growl", "Ember", "Tail Whip", "Flame Wheel", "Stomp", "Fire Spin", "Take Down", "Agility", "Fire Blast", "Flare Blitz"],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "region": "Eastern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 79,
+      "num": "079",
+      "name": "Slowpoke",
+      "img": "http://www.serebii.net/pokemongo/pokemon/079.png",
+      "type": ["Water", "Psychic"],
+      "moves": ["Tackle", "Growl", "Water Gun", "Confusion", "Disable", "Headbutt", "Amnesia", "Water Pulse", "Psychic", "Slack Off", "Rain Dance"],
+      "weaknesses": ["Electric", "Grass", "Bug", "Ghost", "Dark"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": [
+        {"num": "080", "name": "Slowbro"}
+      ]
+    },
+    {
+      "id": 80,
+      "num": "080",
+      "name": "Slowbro",
+      "img": "http://www.serebii.net/pokemongo/pokemon/080.png",
+      "type": ["Water", "Psychic"],
+      "moves": ["Withdraw", "Tackle", "Growl", "Water Gun", "Confusion", "Disable", "Headbutt", "Amnesia", "Water Pulse", "Psychic", "Slack Off", "Rain Dance"],
+      "weaknesses": ["Electric", "Grass", "Bug", "Ghost", "Dark"],
+      "region": "Northern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 81,
+      "num": "081",
+      "name": "Magnemite",
+      "img": "http://www.serebii.net/pokemongo/pokemon/081.png",
+      "type": ["Electric"],
+      "moves": ["Tackle", "Supersonic", "Thunder Shock", "Magnet Bomb", "Light Screen", "Spark", "Mirror Shot", "Magnet Rise", "Thunderbolt", "Screech", "Discharge"],
+      "weaknesses": ["Fire", "Water", "Ground"],
+      "region": "Free State",
+      "next_evolution": [
+        {"num": "082", "name": "Magneton"}
+      ]
+    },
+    {
+      "id": 82,
+      "num": "082",
+      "name": "Magneton",
+      "img": "http://www.serebii.net/pokemongo/pokemon/082.png",
+      "type": ["Electric"],
+      "moves": ["Tri Attack", "Tackle", "Supersonic", "Thunder Shock", "Magnet Bomb", "Light Screen", "Spark", "Mirror Shot", "Magnet Rise", "Thunderbolt", "Screech", "Discharge"],
+      "weaknesses": ["Fire", "Water", "Ground"],
+      "region": "North West",
+      "next_evolution": []
+    },
+    {
+      "id": 83,
+      "num": "083",
+      "name": "Farfetch'd",
+      "img": "http://www.serebii.net/pokemongo/pokemon/083.png",
+      "type": ["Normal", "Flying"],
+      "moves": ["Peck", "Sand Attack", "Leer", "Fury Attack", "Aerial Ace", "Slash", "Air Cutter", "Swords Dance", "Agility", "Feather Dance", "Brave Bird"],
+      "weaknesses": ["Electric", "Rock"],
+      "region": "Gauteng",
+      "next_evolution": []
+    },
+    {
+      "id": 84,
+      "num": "084",
+      "name": "Doduo",
+      "img": "http://www.serebii.net/pokemongo/pokemon/084.png",
+      "type": ["Normal", "Flying"],
+      "moves": ["Peck", "Growl", "Pursuit", "Fury Attack", "Quick Attack", "Rage", "Tri Attack", "Drill Peck", "Agility"],
+      "weaknesses": ["Electric", "Rock"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "085", "name": "Dodrio"}
+      ]
+    },
+    {
+      "id": 85,
+      "num": "085",
+      "name": "Dodrio",
+      "img": "http://www.serebii.net/pokemongo/pokemon/085.png",
+      "type": ["Normal", "Flying"],
+      "moves": ["Thrash", "Peck", "Growl", "Pursuit", "Fury Attack", "Quick Attack", "Rage", "Tri Attack", "Drill Peck", "Agility"],
+      "weaknesses": ["Electric", "Rock"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 86,
+      "num": "086",
+      "name": "Seel",
+      "img": "http://www.serebii.net/pokemongo/pokemon/086.png",
+      "type": ["Water"],
+      "moves": ["Headbutt", "Growl", "Water Gun", "Icy Wind", "Aurora Beam", "Rest", "Take Down", "Surf", "Ice Beam", "Blizzard"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Western Cape",
+      "next_evolution": [
+        {"num": "087", "name": "Dewgong"}
+      ]
+    },
+    {
+      "id": 87,
+      "num": "087",
+      "name": "Dewgong",
+      "img": "http://www.serebii.net/pokemongo/pokemon/087.png",
+      "type": ["Water", "Ice"],
+      "moves": ["Sheer Cold", "Headbutt", "Growl", "Water Gun", "Icy Wind", "Aurora Beam", "Rest", "Take Down", "Surf", "Ice Beam", "Blizzard"],
+      "weaknesses": ["Electric", "Grass", "Fighting", "Rock"],
+      "region": "Eastern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 88,
+      "num": "088",
+      "name": "Grimer",
+      "img": "http://www.serebii.net/pokemongo/pokemon/088.png",
+      "type": ["Poison"],
+      "moves": ["Pound", "Poison Gas", "Harden", "Mud-Slap", "Disable", "Sludge", "Minimize", "Sludge Bomb", "Screech", "Acid Armor", "Gunk Shot"],
+      "weaknesses": ["Ground", "Psychic"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": [
+        {"num": "089", "name": "Muk"}
+      ]
+    },
+    {
+      "id": 89,
+      "num": "089",
+      "name": "Muk",
+      "img": "http://www.serebii.net/pokemongo/pokemon/089.png",
+      "type": ["Poison"],
+      "moves": ["Venom Drench", "Pound", "Poison Gas", "Harden", "Mud-Slap", "Disable", "Sludge", "Minimize", "Sludge Bomb", "Screech", "Acid Armor", "Gunk Shot"],
+      "weaknesses": ["Ground", "Psychic"],
+      "region": "Northern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 90,
+      "num": "090",
+      "name": "Shellder",
+      "img": "http://www.serebii.net/pokemongo/pokemon/090.png",
+      "type": ["Water"],
+      "moves": ["Tackle", "Water Gun", "Withdraw", "Supersonic", "Icicle Spear", "Leer", "Clamp", "Ice Shard", "Aurora Beam", "Hydro Pump"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Free State",
+      "next_evolution": [
+        {"num": "091", "name": "Cloyster"}
+      ]
+    },
+    {
+      "id": 91,
+      "num": "091",
+      "name": "Cloyster",
+      "img": "http://www.serebii.net/pokemongo/pokemon/091.png",
+      "type": ["Water", "Ice"],
+      "moves": ["Hydro Pump", "Tackle", "Water Gun", "Withdraw", "Supersonic", "Icicle Spear", "Leer", "Clamp", "Ice Shard", "Aurora Beam"],
+      "weaknesses": ["Electric", "Grass", "Fighting", "Rock"],
+      "region": "North West",
+      "next_evolution": []
+    },
+    {
+      "id": 92,
+      "num": "092",
+      "name": "Gastly",
+      "img": "http://www.serebii.net/pokemongo/pokemon/092.png",
+      "type": ["Ghost", "Poison"],
+      "moves": ["Hypnosis", "Lick", "Spite", "Mean Look", "Curse", "Night Shade", "Confuse Ray", "Sucker Punch", "Payback", "Shadow Ball", "Dream Eater"],
+      "weaknesses": ["Ground", "Psychic", "Ghost", "Dark"],
+      "region": "Gauteng",
+      "next_evolution": [
+        {"num": "093", "name": "Haunter"},
+        {"num": "094", "name": "Gengar"}
+      ]
+    },
+    {
+      "id": 93,
+      "num": "093",
+      "name": "Haunter",
+      "img": "http://www.serebii.net/pokemongo/pokemon/093.png",
+      "type": ["Ghost", "Poison"],
+      "moves": ["Shadow Punch", "Hypnosis", "Lick", "Spite", "Mean Look", "Curse", "Night Shade", "Confuse Ray", "Sucker Punch", "Payback", "Shadow Ball", "Dream Eater"],
+      "weaknesses": ["Ground", "Psychic", "Ghost", "Dark"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "094", "name": "Gengar"}
+      ]
+    },
+    {
+      "id": 94,
+      "num": "094",
+      "name": "Gengar",
+      "img": "http://www.serebii.net/pokemongo/pokemon/094.png",
+      "type": ["Ghost", "Poison"],
+      "moves": ["Shadow Punch", "Hypnosis", "Lick", "Spite", "Mean Look", "Curse", "Night Shade", "Confuse Ray", "Sucker Punch", "Payback", "Shadow Ball", "Dream Eater"],
+      "weaknesses": ["Ground", "Psychic", "Ghost", "Dark"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 95,
+      "num": "095",
+      "name": "Onix",
+      "img": "http://www.serebii.net/pokemongo/pokemon/095.png",
+      "type": ["Rock", "Ground"],
+      "moves": ["Tackle", "Harden", "Bind", "Rock Throw", "Rage", "Sandstorm", "Slam", "Rock Tomb", "Dragon Breath", "Curse", "Rock Slide", "Earthquake", "Stone Edge"],
+      "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      "region": "Western Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 96,
+      "num": "096",
+      "name": "Drowzee",
+      "img": "http://www.serebii.net/pokemongo/pokemon/096.png",
+      "type": ["Psychic"],
+      "moves": ["Pound", "Hypnosis", "Disable", "Confusion", "Headbutt", "Poison Gas", "Meditate", "Psybeam", "Psych Up", "Psychic", "Future Sight"],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "region": "Eastern Cape",
+      "next_evolution": [
+        {"num": "097", "name": "Hypno"}
+      ]
+    },
+    {
+      "id": 97,
+      "num": "097",
+      "name": "Hypno",
+      "img": "http://www.serebii.net/pokemongo/pokemon/097.png",
+      "type": ["Psychic"],
+      "moves": ["Future Sight", "Pound", "Hypnosis", "Disable", "Confusion", "Headbutt", "Poison Gas", "Meditate", "Psybeam", "Psych Up", "Psychic"],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": []
+    },
+    {
+      "id": 98,
+      "num": "098",
+      "name": "Krabby",
+      "img": "http://www.serebii.net/pokemongo/pokemon/098.png",
+      "type": ["Water"],
+      "moves": ["Bubble", "Leer", "Vice Grip", "Harden", "Bubble Beam", "Slam", "Crabhammer", "Guillotine"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Northern Cape",
+      "next_evolution": [
+        {"num": "099", "name": "Kingler"}
+      ]
+    },
+    {
+      "id": 99,
+      "num": "099",
+      "name": "Kingler",
+      "img": "http://www.serebii.net/pokemongo/pokemon/099.png",
+      "type": ["Water"],
+      "moves": ["Crabhammer", "Bubble", "Leer", "Vice Grip", "Harden", "Bubble Beam", "Slam", "Guillotine"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Free State",
+      "next_evolution": []
+    },
+    {
+      "id": 100,
+      "num": "100",
+      "name": "Voltorb",
+      "img": "http://www.serebii.net/pokemongo/pokemon/100.png",
+      "type": ["Electric"],
+      "moves": ["Charge", "Tackle", "Sonic Boom", "Spark", "Rollout", "Screech", "Light Screen", "Thunderbolt", "Self-Destruct", "Gyro Ball", "Explosion"],
+      "weaknesses": ["Ground"],
+      "region": "North West",
+      "next_evolution": [
+        {"num": "101", "name": "Electrode"}
+      ]
+    },
+    {
+      "id": 101,
+      "num": "101",
+      "name": "Electrode",
+      "img": "http://www.serebii.net/pokemongo/pokemon/101.png",
+      "type": ["Electric"],
+      "moves": ["Magnetic Flux", "Charge", "Tackle", "Sonic Boom", "Spark", "Rollout", "Screech", "Light Screen", "Thunderbolt", "Self-Destruct", "Gyro Ball", "Explosion"],
+      "weaknesses": ["Ground"],
+      "region": "Gauteng",
+      "next_evolution": []
+    },
+    {
+      "id": 102,
+      "num": "102",
+      "name": "Exeggcute",
+      "img": "http://www.serebii.net/pokemongo/pokemon/102.png",
+      "type": ["Grass", "Psychic"],
+      "moves": ["Absorb", "Hypnosis", "Reflect", "Leech Seed", "Bullet Seed", "Stun Spore", "Poison Powder", "Sleep Powder", "Confusion", "Giga Drain", "Psychic"],
+      "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug", "Ghost", "Dark"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "103", "name": "Exeggutor"}
+      ]
+    },
+    {
+      "id": 103,
+      "num": "103",
+      "name": "Exeggutor",
+      "img": "http://www.serebii.net/pokemongo/pokemon/103.png",
+      "type": ["Grass", "Psychic"],
+      "moves": ["Seed Bomb", "Absorb", "Hypnosis", "Reflect", "Leech Seed", "Bullet Seed", "Stun Spore", "Poison Powder", "Sleep Powder", "Confusion", "Giga Drain", "Psychic"],
+      "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug", "Ghost", "Dark"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 104,
+      "num": "104",
+      "name": "Cubone",
+      "img": "http://www.serebii.net/pokemongo/pokemon/104.png",
+      "type": ["Ground"],
+      "moves": ["Growl", "Tail Whip", "Bone Club", "Headbutt", "Leer", "Focus Energy", "Bonemerang", "Rage", "Thrash", "Double-Edge", "Earthquake"],
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "region": "Western Cape",
+      "next_evolution": [
+        {"num": "105", "name": "Marowak"}
+      ]
+    },
+    {
+      "id": 105,
+      "num": "105",
+      "name": "Marowak",
+      "img": "http://www.serebii.net/pokemongo/pokemon/105.png",
+      "type": ["Ground"],
+      "moves": ["Bone Rush", "Growl", "Tail Whip", "Bone Club", "Headbutt", "Leer", "Focus Energy", "Bonemerang", "Rage", "Thrash", "Double-Edge", "Earthquake"],
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "region": "Eastern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 106,
+      "num": "106",
+      "name": "Hitmonlee",
+      "img": "http://www.serebii.net/pokemongo/pokemon/106.png",
+      "type": ["Fighting"],
+      "moves": ["Double Kick", "Meditate", "Rolling Kick", "Jump Kick", "High Jump Kick", "Focus Energy", "Mega Kick", "Reversal", "Close Combat"],
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": []
+    },
+    {
+      "id": 107,
+      "num": "107",
+      "name": "Hitmonchan",
+      "img": "http://www.serebii.net/pokemongo/pokemon/107.png",
+      "type": ["Fighting"],
+      "moves": ["Comet Punch", "Agility", "Pursuit", "Mach Punch", "Thunder Punch", "Ice Punch", "Fire Punch", "Sky Uppercut", "Mega Punch", "Close Combat"],
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "region": "Northern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 108,
+      "num": "108",
+      "name": "Lickitung",
+      "img": "http://www.serebii.net/pokemongo/pokemon/108.png",
+      "type": ["Normal"],
+      "moves": ["Lick", "Supersonic", "Defense Curl", "Knock Off", "Wrap", "Stomp", "Disable", "Slam", "Rollout", "Refresh", "Hyper Beam"],
+      "weaknesses": ["Fighting"],
+      "region": "Free State",
+      "next_evolution": []
+    },
+    {
+      "id": 109,
+      "num": "109",
+      "name": "Koffing",
+      "img": "http://www.serebii.net/pokemongo/pokemon/109.png",
+      "type": ["Poison"],
+      "moves": ["Poison Gas", "Tackle", "Smog", "Smokescreen", "Haze", "Self-Destruct", "Sludge", "Toxic", "Sludge Bomb", "Explosion"],
+      "weaknesses": ["Ground", "Psychic"],
+      "region": "North West",
+      "next_evolution": [
+        {"num": "110", "name": "Weezing"}
+      ]
+    },
+    {
+      "id": 110,
+      "num": "110",
+      "name": "Weezing",
+      "img": "http://www.serebii.net/pokemongo/pokemon/110.png",
+      "type": ["Poison"],
+      "moves": ["Double Hit", "Poison Gas", "Tackle", "Smog", "Smokescreen", "Haze", "Self-Destruct", "Sludge", "Toxic", "Sludge Bomb", "Explosion"],
+      "weaknesses": ["Ground", "Psychic"],
+      "region": "Gauteng",
+      "next_evolution": []
+    },
+    {
+      "id": 111,
+      "num": "111",
+      "name": "Rhyhorn",
+      "img": "http://www.serebii.net/pokemongo/pokemon/111.png",
+      "type": ["Ground", "Rock"],
+      "moves": ["Horn Attack", "Tail Whip", "Stomp", "Fury Attack", "Scary Face", "Rock Blast", "Drill Run", "Take Down", "Earthquake", "Megahorn"],
+      "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "112", "name": "Rhydon"}
+      ]
+    },
+    {
+      "id": 112,
+      "num": "112",
+      "name": "Rhydon",
+      "img": "http://www.serebii.net/pokemongo/pokemon/112.png",
+      "type": ["Ground", "Rock"],
+      "moves": ["Horn Drill", "Horn Attack", "Tail Whip", "Stomp", "Fury Attack", "Scary Face", "Rock Blast", "Drill Run", "Take Down", "Earthquake", "Megahorn"],
+      "weaknesses": ["Water", "Grass", "Ice", "Fighting", "Ground", "Steel"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 113,
+      "num": "113",
+      "name": "Chansey",
+      "img": "http://www.serebii.net/pokemongo/pokemon/113.png",
+      "type": ["Normal"],
+      "moves": ["Pound", "Defense Curl", "Tail Whip", "Growl", "Sing", "Double Slap", "Minimize", "Take Down", "Egg Bomb", "Soft-Boiled", "Healing Wish"],
+      "weaknesses": ["Fighting"],
+      "region": "Western Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 114,
+      "num": "114",
+      "name": "Tangela",
+      "img": "http://www.serebii.net/pokemongo/pokemon/114.png",
+      "type": ["Grass"],
+      "moves": ["Absorb", "Growth", "Vine Whip", "Bind", "Stun Spore", "Mega Drain", "Knock Off", "Ancient Power", "Giga Drain", "Sleep Powder", "Power Whip"],
+      "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug"],
+      "region": "Eastern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 115,
+      "num": "115",
+      "name": "Kangaskhan",
+      "img": "http://www.serebii.net/pokemongo/pokemon/115.png",
+      "type": ["Normal"],
+      "moves": ["Pound", "Leer", "Bite", "Tail Whip", "Fake Out", "Stomp", "Double Hit", "Sucker Punch", "Dizzy Punch", "Endure", "Reversal", "Outrage"],
+      "weaknesses": ["Fighting"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": []
+    },
+    {
+      "id": 116,
+      "num": "116",
+      "name": "Horsea",
+      "img": "http://www.serebii.net/pokemongo/pokemon/116.png",
+      "type": ["Water"],
+      "moves": ["Bubble", "Smokescreen", "Leer", "Water Gun", "Twister", "Bubble Beam", "Focus Energy", "Brine", "Agility", "Dragon Pulse", "Hydro Pump"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Northern Cape",
+      "next_evolution": [
+        {"num": "117", "name": "Seadra"}
+      ]
+    },
+    {
+      "id": 117,
+      "num": "117",
+      "name": "Seadra",
+      "img": "http://www.serebii.net/pokemongo/pokemon/117.png",
+      "type": ["Water"],
+      "moves": ["Hydro Pump", "Bubble", "Smokescreen", "Leer", "Water Gun", "Twister", "Bubble Beam", "Focus Energy", "Brine", "Agility", "Dragon Pulse"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Free State",
+      "next_evolution": []
+    },
+    {
+      "id": 118,
+      "num": "118",
+      "name": "Goldeen",
+      "img": "http://www.serebii.net/pokemongo/pokemon/118.png",
+      "type": ["Water"],
+      "moves": ["Peck", "Tail Whip", "Water Gun", "Horn Attack", "Flail", "Water Pulse", "Aqua Ring", "Fury Attack", "Agility", "Horn Drill", "Megahorn"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "North West",
+      "next_evolution": [
+        {"num": "119", "name": "Seaking"}
+      ]
+    },
+    {
+      "id": 119,
+      "num": "119",
+      "name": "Seaking",
+      "img": "http://www.serebii.net/pokemongo/pokemon/119.png",
+      "type": ["Water"],
+      "moves": ["Megahorn", "Peck", "Tail Whip", "Water Gun", "Horn Attack", "Flail", "Water Pulse", "Aqua Ring", "Fury Attack", "Agility", "Horn Drill"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Gauteng",
+      "next_evolution": []
+    },
+    {
+      "id": 120,
+      "num": "120",
+      "name": "Staryu",
+      "img": "http://www.serebii.net/pokemongo/pokemon/120.png",
+      "type": ["Water"],
+      "moves": ["Tackle", "Harden", "Water Gun", "Rapid Spin", "Recover", "Swift", "Bubble Beam", "Minimize", "Gyro Ball", "Light Screen", "Hydro Pump", "Cosmic Power"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "121", "name": "Starmie"}
+      ]
+    },
+    {
+      "id": 121,
+      "num": "121",
+      "name": "Starmie",
+      "img": "http://www.serebii.net/pokemongo/pokemon/121.png",
+      "type": ["Water", "Psychic"],
+      "moves": ["Hydro Pump", "Tackle", "Harden", "Water Gun", "Rapid Spin", "Recover", "Swift", "Bubble Beam", "Minimize", "Gyro Ball", "Light Screen", "Cosmic Power"],
+      "weaknesses": ["Electric", "Grass", "Bug", "Ghost", "Dark"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 122,
+      "num": "122",
+      "name": "Mr. Mime",
+      "img": "http://www.serebii.net/pokemongo/pokemon/122.png",
+      "type": ["Psychic"],
+      "moves": ["Barrier", "Confusion", "Mimic", "Meditate", "Psybeam", "Light Screen", "Reflect", "Encore", "Psychic", "Recycle", "Trick", "Safeguard"],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "region": "Western Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 123,
+      "num": "123",
+      "name": "Scyther",
+      "img": "http://www.serebii.net/pokemongo/pokemon/123.png",
+      "type": ["Bug", "Flying"],
+      "moves": ["Quick Attack", "Leer", "Focus Energy", "Pursuit", "False Swipe", "Agility", "Wing Attack", "Fury Cutter", "Slash", "Razor Wind", "Double Team", "X-Scissor"],
+      "weaknesses": ["Fire", "Electric", "Ice", "Flying", "Rock"],
+      "region": "Eastern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 124,
+      "num": "124",
+      "name": "Jynx",
+      "img": "http://www.serebii.net/pokemongo/pokemon/124.png",
+      "type": ["Ice", "Psychic"],
+      "moves": ["Pound", "Lick", "Lovely Kiss", "Powder Snow", "Double Slap", "Ice Punch", "Mean Look", "Fake Tears", "Avalanche", "Psychic", "Blizzard"],
+      "weaknesses": ["Fire", "Bug", "Rock", "Ghost", "Dark", "Steel"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": []
+    },
+    {
+      "id": 125,
+      "num": "125",
+      "name": "Electabuzz",
+      "img": "http://www.serebii.net/pokemongo/pokemon/125.png",
+      "type": ["Electric"],
+      "moves": ["Quick Attack", "Leer", "Thunder Shock", "Low Kick", "Swift", "Shock Wave", "Light Screen", "Thunder Punch", "Discharge", "Thunderbolt", "Thunder"],
+      "weaknesses": ["Ground"],
+      "region": "Northern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 126,
+      "num": "126",
+      "name": "Magmar",
+      "img": "http://www.serebii.net/pokemongo/pokemon/126.png",
+      "type": ["Fire"],
+      "moves": ["Ember", "Leer", "Smog", "Fire Punch", "Smoke Screen", "Sunny Day", "Flame Burst", "Fire Spin", "Lava Plume", "Flamethrower", "Fire Blast"],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "region": "Free State",
+      "next_evolution": []
+    },
+    {
+      "id": 127,
+      "num": "127",
+      "name": "Pinsir",
+      "img": "http://www.serebii.net/pokemongo/pokemon/127.png",
+      "type": ["Bug"],
+      "moves": ["Vice Grip", "Focus Energy", "Bind", "Seismic Toss", "Harden", "Revenge", "Brick Break", "X-Scissor", "Submission", "Guillotine", "Swords Dance"],
+      "weaknesses": ["Fire", "Flying", "Rock"],
+      "region": "North West",
+      "next_evolution": []
+    },
+    {
+      "id": 128,
+      "num": "128",
+      "name": "Tauros",
+      "img": "http://www.serebii.net/pokemongo/pokemon/128.png",
+      "type": ["Normal"],
+      "moves": ["Tackle", "Tail Whip", "Rage", "Horn Attack", "Scary Face", "Pursuit", "Rest", "Payback", "Take Down", "Zen Headbutt", "Thrash", "Giga Impact"],
+      "weaknesses": ["Fighting"],
+      "region": "Gauteng",
+      "next_evolution": []
+    },
+    {
+      "id": 129,
+      "num": "129",
+      "name": "Magikarp",
+      "img": "http://www.serebii.net/pokemongo/pokemon/129.png",
+      "type": ["Water"],
+      "moves": ["Splash", "Tackle", "Flail"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "130", "name": "Gyarados"}
+      ]
+    },
+    {
+      "id": 130,
+      "num": "130",
+      "name": "Gyarados",
+      "img": "http://www.serebii.net/pokemongo/pokemon/130.png",
+      "type": ["Water", "Flying"],
+      "moves": ["Bite", "Dragon Rage", "Leer", "Twister", "Hydro Pump", "Dragon Dance", "Rain Dance", "Thrash", "Aqua Tail", "Hurricane"],
+      "weaknesses": ["Electric", "Rock"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 131,
+      "num": "131",
+      "name": "Lapras",
+      "img": "http://www.serebii.net/pokemongo/pokemon/131.png",
+      "type": ["Water", "Ice"],
+      "moves": ["Sing", "Water Gun", "Growl", "Mist", "Confuse Ray", "Ice Shard", "Perish Song", "Brine", "Safeguard", "Hydro Pump", "Sheer Cold"],
+      "weaknesses": ["Electric", "Grass", "Fighting", "Rock"],
+      "region": "Western Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 132,
+      "num": "132",
+      "name": "Ditto",
+      "img": "http://www.serebii.net/pokemongo/pokemon/132.png",
+      "type": ["Normal"],
+      "moves": ["Transform"],
+      "weaknesses": ["Fighting"],
+      "region": "Eastern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 133,
+      "num": "133",
+      "name": "Eevee",
+      "img": "http://www.serebii.net/pokemongo/pokemon/133.png",
+      "type": ["Normal"],
+      "moves": ["Tackle", "Tail Whip", "Sand Attack", "Growl", "Quick Attack", "Bite", "Swift", "Take Down", "Last Resort"],
+      "weaknesses": ["Fighting"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": [
+        {"num": "134", "name": "Vaporeon"},
+        {"num": "135", "name": "Jolteon"},
+        {"num": "136", "name": "Flareon"}
+      ]
+    },
+    {
+      "id": 134,
+      "num": "134",
+      "name": "Vaporeon",
+      "img": "http://www.serebii.net/pokemongo/pokemon/134.png",
+      "type": ["Water"],
+      "moves": ["Water Gun", "Tail Whip", "Sand Attack", "Growl", "Quick Attack", "Bite", "Aurora Beam", "Haze", "Acid Armor", "Hydro Pump"],
+      "weaknesses": ["Electric", "Grass"],
+      "region": "Northern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 135,
+      "num": "135",
+      "name": "Jolteon",
+      "img": "http://www.serebii.net/pokemongo/pokemon/135.png",
+      "type": ["Electric"],
+      "moves": ["Thunder Shock", "Tail Whip", "Sand Attack", "Growl", "Quick Attack", "Double Kick", "Pin Missile", "Thunder Wave", "Thunderbolt", "Agility", "Thunder"],
+      "weaknesses": ["Ground"],
+      "region": "Free State",
+      "next_evolution": []
+    },
+    {
+      "id": 136,
+      "num": "136",
+      "name": "Flareon",
+      "img": "http://www.serebii.net/pokemongo/pokemon/136.png",
+      "type": ["Fire"],
+      "moves": ["Ember", "Tail Whip", "Sand Attack", "Growl", "Quick Attack", "Bite", "Fire Spin", "Smog", "Fire Fang", "Lava Plume", "Fire Blast"],
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "region": "North West",
+      "next_evolution": []
+    },
+    {
+      "id": 137,
+      "num": "137",
+      "name": "Porygon",
+      "img": "http://www.serebii.net/pokemongo/pokemon/137.png",
+      "type": ["Normal"],
+      "moves": ["Conversion", "Tackle", "Sharpen", "Psybeam", "Agility", "Recover", "Tri Attack", "Discharge"],
+      "weaknesses": ["Fighting"],
+      "region": "Gauteng",
+      "next_evolution": []
+    },
+    {
+      "id": 138,
+      "num": "138",
+      "name": "Omanyte",
+      "img": "http://www.serebii.net/pokemongo/pokemon/138.png",
+      "type": ["Rock", "Water"],
+      "moves": ["Withdraw", "Tackle", "Water Gun", "Bite", "Mud Shot", "Leer", "Protect", "Ancient Power", "Brine", "Rock Blast", "Hydro Pump"],
+      "weaknesses": ["Electric", "Grass", "Fighting", "Ground"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "139", "name": "Omastar"}
+      ]
+    },
+    {
+      "id": 139,
+      "num": "139",
+      "name": "Omastar",
+      "img": "http://www.serebii.net/pokemongo/pokemon/139.png",
+      "type": ["Rock", "Water"],
+      "moves": ["Spike Cannon", "Withdraw", "Tackle", "Water Gun", "Bite", "Mud Shot", "Leer", "Protect", "Ancient Power", "Brine", "Rock Blast", "Hydro Pump"],
+      "weaknesses": ["Electric", "Grass", "Fighting", "Ground"],
+      "region": "Limpopo",
+      "next_evolution": []
+    },
+    {
+      "id": 140,
+      "num": "140",
+      "name": "Kabuto",
+      "img": "http://www.serebii.net/pokemongo/pokemon/140.png",
+      "type": ["Rock", "Water"],
+      "moves": ["Scratch", "Harden", "Absorb", "Leer", "Mud Shot", "Sand Attack", "Endure", "Aqua Jet", "Ancient Power", "Rock Slide", "Aqua Tail"],
+      "weaknesses": ["Electric", "Grass", "Fighting", "Ground"],
+      "region": "Western Cape",
+      "next_evolution": [
+        {"num": "141", "name": "Kabutops"}
+      ]
+    },
+    {
+      "id": 141,
+      "num": "141",
+      "name": "Kabutops",
+      "img": "http://www.serebii.net/pokemongo/pokemon/141.png",
+      "type": ["Rock", "Water"],
+      "moves": ["Night Slash", "Scratch", "Harden", "Absorb", "Leer", "Mud Shot", "Sand Attack", "Endure", "Aqua Jet", "Ancient Power", "Rock Slide", "Aqua Tail"],
+      "weaknesses": ["Electric", "Grass", "Fighting", "Ground"],
+      "region": "Eastern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 142,
+      "num": "142",
+      "name": "Aerodactyl",
+      "img": "http://www.serebii.net/pokemongo/pokemon/142.png",
+      "type": ["Rock", "Flying"],
+      "moves": ["Bite", "Supersonic", "Ancient Power", "Wing Attack", "Agility", "Take Down", "Roar", "Crunch", "Stone Edge", "Hyper Beam"],
+      "weaknesses": ["Water", "Electric", "Ice", "Rock", "Steel"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": []
+    },
+    {
+      "id": 143,
+      "num": "143",
+      "name": "Snorlax",
+      "img": "http://www.serebii.net/pokemongo/pokemon/143.png",
+      "type": ["Normal"],
+      "moves": ["Tackle", "Defense Curl", "Amnesia", "Lick", "Belly Drum", "Yawn", "Rest", "Snore", "Sleep Talk", "Body Slam", "Block", "Giga Impact"],
+      "weaknesses": ["Fighting"],
+      "region": "Northern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 144,
+      "num": "144",
+      "name": "Articuno",
+      "img": "http://www.serebii.net/pokemongo/pokemon/144.png",
+      "type": ["Ice", "Flying"],
+      "moves": ["Gust", "Powder Snow", "Leer", "Mist", "Ice Shard", "Mind Reader", "Ancient Power", "Agility", "Freeze-Dry", "Reflect", "Hail", "Blizzard"],
+      "weaknesses": ["Fire", "Electric", "Rock", "Steel"],
+      "region": "Free State",
+      "next_evolution": []
+    },
+    {
+      "id": 145,
+      "num": "145",
+      "name": "Zapdos",
+      "img": "http://www.serebii.net/pokemongo/pokemon/145.png",
+      "type": ["Electric", "Flying"],
+      "moves": ["Peck", "Thunder Shock", "Leer", "Charge", "Agility", "Discharge", "Roost", "Drill Peck", "Thunderbolt", "Thunder"],
+      "weaknesses": ["Ice", "Rock"],
+      "region": "North West",
+      "next_evolution": []
+    },
+    {
+      "id": 146,
+      "num": "146",
+      "name": "Moltres",
+      "img": "http://www.serebii.net/pokemongo/pokemon/146.png",
+      "type": ["Fire", "Flying"],
+      "moves": ["Wing Attack", "Ember", "Fire Spin", "Agility", "Endure", "Ancient Power", "Flamethrower", "Safeguard", "Air Slash", "Heat Wave"],
+      "weaknesses": ["Water", "Electric", "Rock"],
+      "region": "Gauteng",
+      "next_evolution": []
+    },
+    {
+      "id": 147,
+      "num": "147",
+      "name": "Dratini",
+      "img": "http://www.serebii.net/pokemongo/pokemon/147.png",
+      "type": ["Dragon"],
+      "moves": ["Wrap", "Leer", "Thunder Wave", "Twister", "Dragon Rage", "Slam", "Agility", "Dragon Tail", "Aqua Tail", "Dragon Rush"],
+      "weaknesses": ["Ice", "Dragon", "Fairy"],
+      "region": "Mpumalanga",
+      "next_evolution": [
+        {"num": "148", "name": "Dragonair"},
+        {"num": "149", "name": "Dragonite"}
+      ]
+    },
+    {
+      "id": 148,
+      "num": "148",
+      "name": "Dragonair",
+      "img": "http://www.serebii.net/pokemongo/pokemon/148.png",
+      "type": ["Dragon"],
+      "moves": ["Wrap", "Leer", "Thunder Wave", "Twister", "Dragon Rage", "Slam", "Agility", "Dragon Tail", "Aqua Tail", "Dragon Rush"],
+      "weaknesses": ["Ice", "Dragon", "Fairy"],
+      "region": "Limpopo",
+      "next_evolution": [
+        {"num": "149", "name": "Dragonite"}
+      ]
+    },
+    {
+      "id": 149,
+      "num": "149",
+      "name": "Dragonite",
+      "img": "http://www.serebii.net/pokemongo/pokemon/149.png",
+      "type": ["Dragon", "Flying"],
+      "moves": ["Hurricane", "Wrap", "Leer", "Thunder Wave", "Twister", "Dragon Rage", "Slam", "Agility", "Dragon Tail", "Aqua Tail", "Dragon Rush"],
+      "weaknesses": ["Ice", "Rock", "Dragon", "Fairy"],
+      "region": "Western Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 150,
+      "num": "150",
+      "name": "Mewtwo",
+      "img": "http://www.serebii.net/pokemongo/pokemon/150.png",
+      "type": ["Psychic"],
+      "moves": ["Confusion", "Disable", "Barrier", "Swift", "Psych Up", "Future Sight", "Psychic", "Recover", "Safeguard", "Amnesia", "Psystrike"],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "region": "Eastern Cape",
+      "next_evolution": []
+    },
+    {
+      "id": 151,
+      "num": "151",
+      "name": "Mew",
+      "img": "http://www.serebii.net/pokemongo/pokemon/151.png",
+      "type": ["Psychic"],
+      "moves": ["Pound", "Reflect Type", "Amnesia", "Transform", "Mega Punch", "Metronome", "Psychic", "Ancient Power", "Aura Sphere", "Psystrike"],
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "region": "KwaZulu-Natal",
+      "next_evolution": []
+    }
+  ]
+  }

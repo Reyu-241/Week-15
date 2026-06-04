@@ -1,0 +1,166 @@
+:root {
+  --pokemon-red: #EE1515;
+  --pokemon-blue: #3B4CCA;
+  --pokemon-yellow: #FFCB05;
+  --dark-blue: #1F2A6B;
+  --bg-light: #F8F8F8;
+  --card-bg: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: var(--bg-light);
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: var(--pokemon-red);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.weaknesses {
+  margin: 6px 0 4px;
+  font-size: 12px;
+}
+
+.weakness-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.weakness-tag {
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.weakness-fire     { background: #F08030; }
+.weakness-water    { background: #6890F0; }
+.weakness-grass    { background: #78C850; }
+.weakness-electric { background: #F8D030; color: #333; }
+.weakness-ice      { background: #98D8D8; color: #333; }
+.weakness-fighting { background: #C03028; }
+.weakness-poison   { background: #A040A0; }
+.weakness-ground   { background: #E0C068; color: #333; }
+.weakness-flying   { background: #A890F0; }
+.weakness-psychic  { background: #F85888; }
+.weakness-bug      { background: #A8B820; }
+.weakness-rock     { background: #B8A038; }
+.weakness-ghost    { background: #705898; }
+.weakness-dragon   { background: #7038F8; }
+.weakness-dark     { background: #705848; }
+.weakness-steel    { background: #B8B8D0; color: #333; }
+.weakness-fairy    { background: #EE99AC; color: #333; }
+.weakness-normal   { background: #A8A878; }
+
+.controls {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.controls input, .controls select, .controls button {
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: var(--pokemon-blue);
+  box-shadow: 0 0 0 3px rgba(59, 76, 202, 0.2);
+}
+
+.controls button {
+  background: #EE1515;
+  color: white;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background: #c0392b;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 3px solid var(--pokemon-red);
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  border-color: var(--pokemon-yellow);
+  button.add-team {
+  background: var(--pokemon-red);
+  color: white;
+}
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  image-rendering: crisp-edges;
+}
+
+.team {
+  max-width: 1200px;
+  margin: 40px auto;
+  background: linear-gradient(135deg, #f5b767, #e9653d);
+  color: rgb(15, 15, 15);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.team-slot {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  min-height: 160px;
+  background: #fafafa;
+}
+
+.team-slot.filled {
+  border-style: solid;
+  background: #e8f5e9;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+  padding: 60px 20px;
+  font-size: 1.1em;
+}
