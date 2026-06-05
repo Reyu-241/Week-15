@@ -92,6 +92,24 @@ h1 {
   background: #c0392b;
 }
 
+.scroll-btn {
+  position: fixed;
+  right: 20px;
+  z-index: 999;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.scroll-top {
+  bottom: 70px;
+}
+
+.scroll-bottom {
+  bottom: 20px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
