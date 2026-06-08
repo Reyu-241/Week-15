@@ -320,3 +320,35 @@ async function init() {
 }
 
 window.onload = init;
+
+function addRandomToTeam() {
+  if (currentTeam.length >= 6) {
+    alert("Team is full! Maximum 6 Pokémon.");
+    return;
+  }
+
+  // Filter out Pokémon already on the team
+  const available = allPokemon.filter(p => !currentTeam.some(m => m.id === p.id));
+
+  if (available.length === 0) {
+    alert("All available Pokémon are already on your team!");
+    return;
+  }
+
+  // Pick a random Pokémon
+  const randomPokemon = available[Math.floor(Math.random() * available.length)];
+
+  // Assign up to 4 random moves (no duplicates)
+  const shuffledMoves = [...randomPokemon.moves].sort(() => Math.random() - 0.5);
+  const chosenMoves = shuffledMoves.slice(0, 4);
+
+  // Pad to 4 slots with empty strings if fewer than 4 moves exist
+  while (chosenMoves.length < 4) chosenMoves.push('');
+
+  currentTeam.push(randomPokemon);
+  selectedMoves[randomPokemon.id] = chosenMoves;
+
+  saveTeam();
+  renderTeam();
+  drawChart();
+}
