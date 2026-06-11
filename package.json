@@ -1,0 +1,15 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Pokémon of South Africa - A Pokédex application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["pokemon", "pokedex", "south-africa"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
